@@ -16,7 +16,7 @@
   -->
 
 <resources>
-    <string name="app_name" translatable="false">ScreenCam</string>
+    <string name="app_name" translatable="false">XS Recorder</string>
     <string name="preference_resolution_title">Resolution</string>
     <string name="preference_resolution_summary">Select the resolution to record at</string>
     <string name="preference_fps_title">Frames per second</string>
@@ -57,7 +57,8 @@
     <string name="analytics_library_credit">Crash reporting and analytics SDK by %1$s\n\nGithub url: %2$s\n\nLicense: %3$s</string>
     <string name="iap_library_credit">In-app purchase helper library by %1$s\n\nGithub url: %2$s\n\nLicense: %3$s</string>
     <string name="changelog_library_credit">Changelog display library by %1$s\n\nGithub url: %2$s\n\nLicense: %3$s</string>
-    <string name="opensource_info">This app is open source and the source could be obtained at \n\nGitlab url: %1$s\n\nLicense: %2$s</string>
+    <string name="opensource_info">This app based from \"ScreenCam Screen Recorder\" app and the source could be obtained at \n\nGitlab url: %1$s\n\nLicense: %2$s</string>
+    <string name="opensource_info2">This app is open source and the source could be obtained at \n\nGitlab url: %1$s\n\nLicense: %2$s</string>
     <string name="fab_record_hint">Start recording</string>
     <string name="recording_failed_toast">Screen recording failed.</string>
     <string name="screenrecording_already_active_toast">Screen recording session already active</string>

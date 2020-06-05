@@ -23,9 +23,9 @@
     <color name="multiSelectColor">#503b3b3b</color>
 
     <!-- Light theme color resources -->
-    <color name="colorPrimary">#2196F3</color>
-    <color name="colorPrimaryDark">#1976D2</color>
-    <color name="colorAccent">#FF5722</color>
+    <color name="colorPrimary">#E75F31</color>
+    <color name="colorPrimaryDark">#F65F2C</color>
+    <color name="colorAccent">#1976D2</color>
 
     <!-- Dark theme color resources -->
     <color name="colorPrimary_dark">#202020</color>

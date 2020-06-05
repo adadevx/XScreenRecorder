@@ -15,7 +15,7 @@
  * along with this program.  If not, see http://www.gnu.org/licenses
  */
 
-package com.orpheusdroid.screenrecorder;
+package com.adadev.xrecorder;
 
 import org.solovyev.android.checkout.Billing;
 

@@ -16,7 +16,7 @@
   -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.orpheusdroid.screenrecorder">
+    package="com.adadev.xrecorder">
 
     <uses-permission android:name="android.permission.RECORD_AUDIO" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
@@ -57,7 +57,7 @@
         android:installLocation="internalOnly"
         tools:targetApi="n">
         <activity
-            android:name=".ui.MainActivity"
+            android:name="com.adadev.xrecorder.ui.MainActivity"
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:theme="@style/AppTheme.Light.NoActionBar">
             <intent-filter>
@@ -73,17 +73,17 @@
         </activity>
 
         <activity
-            android:name=".ui.ShortcutActionActivity"
+            android:name="com.adadev.xrecorder.ui.ShortcutActionActivity"
             android:theme="@style/AppTheme.Transparent" />
 
         <service
-            android:name=".services.RecorderService"
+            android:name="com.adadev.xrecorder.services.RecorderService"
             android:exported="false" />
         <service
-            android:name=".services.FloatingControlService"
+            android:name="com.adadev.xrecorder.services.FloatingControlService"
             android:exported="false" />
         <service
-            android:name=".services.FloatingCameraViewService"
+            android:name="com.adadev.xrecorder.services.FloatingCameraViewService"
             android:configChanges="orientation"
             android:exported="false" />
         <service android:name="org.openudid.OpenUDID_service">
@@ -92,7 +92,7 @@
             </intent-filter>
         </service>
         <service
-            android:name=".services.QuickRecordTile"
+            android:name="com.adadev.xrecorder.services.QuickRecordTile"
             android:icon="@drawable/fab_record"
             android:label="@string/quick_settings_tile_default_title"
             android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
@@ -102,7 +102,7 @@
         </service>
 
         <activity
-            android:name=".ui.AboutActivity"
+            android:name="com.adadev.xrecorder.ui.AboutActivity"
             android:label="@string/about_activity_label" />
 
         <provider
@@ -116,11 +116,11 @@
         </provider>
 
         <activity
-            android:name=".ui.PrivacyPolicy"
+            android:name="com.adadev.xrecorder.ui.PrivacyPolicy"
             android:label="Privacy Policy" />
-        <activity android:name=".ui.EditVideoActivity" />
+        <activity android:name="com.adadev.xrecorder.ui.EditVideoActivity" />
         <activity
-            android:name=".ui.FAQActivity"
+            android:name="com.adadev.xrecorder.ui.FAQActivity"
             android:label="FAQ" />
     </application>
 
