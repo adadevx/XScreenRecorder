@@ -1,19 +1,7 @@
-# ScreenRecorder   [![pipeline status](https://gitlab.com/vijai/screenrecorder/badges/master/pipeline.svg)](https://gitlab.com/vijai/screenrecorder/commits/master) [![Crowdin](https://d322cqt584bo4o.cloudfront.net/screencam/localized.svg)](https://crowdin.com/project/screencam)
-![App Icon](ic_launcher-web.png?raw=true "App Icon")
+# XScreenRecorder
+forked from https://gitlab.com/vijai/screenrecorder
 
 Requires Lollipop and above (SDK 21+)
-
-<a href="https://f-droid.org/packages/com.orpheusdroid.screenrecorder/" target="_blank">
-<img src="https://f-droid.org/badge/get-it-on.png" alt="Get it on F-Droid" height="100"/></a>
-<a href="https://play.google.com/store/apps/details?id=com.orpheusdroid.screenrecorder" target="_blank">
-<img src="https://play.google.com/intl/en_us/badges/images/generic/en-play-badge.png" alt="Get it on Google Play" height="100"/></a>
-
-## User Support
-Telegram: [https://goo.gl/TDs42r](https://goo.gl/TDs42r)
-
-[![Telegram Support QR](https://goo.gl/TDs42r.qr "Telegram Support QR")](https://goo.gl/TDs42r.qr)
-
-Slack:    Comming soon!
 
 ## Donation/Payments
 #### PayPal:      [![Paypal Donate](https://www.paypalobjects.com/webstatic/en_US/i/btn/png/gold-pill-paypal-26px.png)](https://paypal.me/vijaichander/5)
