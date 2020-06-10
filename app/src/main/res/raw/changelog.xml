@@ -1,44 +1,8 @@
 <changelog>
     <release
-        date="03-Apr-2019"
-        versionCode="33"
-        versionName="2.0.3">
-        <info>Removed paypal donate option. Google doesn't like it apparently</info>
-    </release>
-    <release
-        date="03-Mar-2019"
-        versionCode="32"
-        versionName="2.0.2">
-        <bugfix>Fix 3.8GB file limit while recording</bugfix>
-        <bugfix>Fix timestamp issue on recorded video file name</bugfix>
-        <bugfix>Change notification type from default to media style</bugfix>
-        <bugfix>Handle force close while recording fails</bugfix>
-        <bugfix>Fix crackling noise while recording internal audio in some cases</bugfix>
-        <new type="summary">New FAQ collapsible style view</new>
-        <new type="summary">Added 360P recording</new>
-    </release>
-    <release
-        date="02-Feb-2019"
-        versionCode="31"
-        versionName="2.0.1">
-        <bugfix>Prevent crash while starting to record on some devices</bugfix>
-        <new type="summary">SystemUI Demo Mode (Experimental, Requires root)</new>
-        <new>About screen now shows if the app is running in magisk mode (or normal mode)</new>
-    </release>
-    <!-- simple example - no version name => will be generated based on verionCode: 100 => v1.00 -->
-    <release
-        date="08-Dec-2018"
-        versionCode="30"
-        versionName="2.0.0">
-        <new>Internal Audio Recording</new>
-        <new type="summary">In app FAQ</new>
-        <new>Camera overlay. Now record your own face with a front facing/rear facing camera
-            overlay
-        </new>
-        <bugfix>Prevent FC while deleting multiple files in some cases</bugfix>
-        <bugfix>Bug fixes and improvements</bugfix>
-        <info>Read the faq for more about internal audio recording. FAQ can be found in the
-            overflow(3 vertical dot) menu
-        </info>
+        date="06-June-2020"
+        versionCode="1"
+        versionName="1.0.1">
+        <info>Release fork ScreenCam Screen Recorder</info>
     </release>
 </changelog>

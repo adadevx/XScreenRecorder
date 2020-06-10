@@ -116,7 +116,7 @@
     <string name="menu_delete">supprimer</string>
     <string name="menu_select_all">tout sélectionner</string>
     <string name="menu_share">Partager</string>
-    <string name="quick_settings_tile_default_title">Ajouter une tuile ScreenCam</string>
+    <string name="quick_settings_tile_default_title">Ajouter une tuile XSRecorder</string>
     <string name="quick_settings_tile_start_title">Démarrer l\'enregistrement</string>
     <string name="quick_settings_tile_stop_title">Arrêter l\'enregistrement</string>
     <string name="preference_orientation_summary">Orientation par défaut</string>
@@ -130,7 +130,7 @@
     <string name="alert_dialog_r_submix_audio_warning_message">Enregistrer l\'audio interne en utilisant submix vous demandera d\'installer le module système magisk. Vous ne pourrez pas entendre l\'audio lors de l\'enregistrement, ceci n\'est pas un bug.\n\n Lire la FAQ pour en savoir plus</string>
     <string name="alert_dialog_internal_audio_warning_faq_text">Voir FAQ</string>
     <string name="alert_dialog_internal_audio_warning_negative_btn_text">Ne plus montrer ce message</string>
-    <string name="preference_magisk_download_title">Module Magisk ScreenCam</string>
+    <string name="preference_magisk_download_title">Module Magisk XSRecorder</string>
     <string name="preference_magisk_download_summary">Télécharger le module magisk pour activer l\'enregistrement audio interne</string>
     <string name="preference_faq_title">FAQ</string>
     <string name="preference_faq_summary">Questions et réponses fréquemment posées</string>

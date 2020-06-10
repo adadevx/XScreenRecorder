@@ -24,8 +24,8 @@ android {
         applicationId "com.adadev.xrecorder"
         minSdkVersion 22
         targetSdkVersion 28
-        versionCode 33
-        versionName "2.0.3"
+        versionCode 2
+        versionName "1.0.2"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
     lintOptions {
@@ -55,7 +55,7 @@ android {
         }
         fdroid {
             dimension "tier"
-            versionNameSuffix '-fdroid'
+            versionNameSuffix '-general'
         }
         playstoreDonate {
             dimension "tier"
@@ -98,14 +98,10 @@ dependencies {
     implementation 'com.google.android.material:material:1.0.0'
     implementation 'androidx.cardview:cardview:1.0.0'
     implementation 'androidx.legacy:legacy-support-v13:1.0.0'
-    implementation 'ly.count.android:sdk:18.08.1'
     implementation 'life.knowledge4:k4l-video-trimmer:1.0'
     implementation 'com.github.google:cameraview:3eaeac09a7f'
     implementation 'com.github.MFlisar:changelog:1.1.2'
     implementation 'com.github.topjohnwu.libsu:core:2.5.0'
-
-    playstoreImplementation 'org.solovyev.android:checkout:1.2.1'
-    playstoreDonateImplementation 'org.solovyev.android:checkout:1.2.1'
 
     testImplementation 'junit:junit:4.12'
 }

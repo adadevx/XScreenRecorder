@@ -86,11 +86,6 @@
             android:name="com.adadev.xrecorder.services.FloatingCameraViewService"
             android:configChanges="orientation"
             android:exported="false" />
-        <service android:name="org.openudid.OpenUDID_service">
-            <intent-filter>
-                <action android:name="org.openudid.GETUDID" />
-            </intent-filter>
-        </service>
         <service
             android:name="com.adadev.xrecorder.services.QuickRecordTile"
             android:icon="@drawable/fab_record"

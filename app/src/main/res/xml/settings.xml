@@ -19,7 +19,7 @@
     <PreferenceCategory android:title="@string/prefs_category_video_settings_title">
 
         <ListPreference
-            android:defaultValue="1080"
+            android:defaultValue="720"
             android:entries="@array/resolutionsArray"
             android:entryValues="@array/resolutionValues"
             android:key="@string/res_key"
@@ -99,20 +99,6 @@
             android:key="@string/fileprefix_key"
             android:summary="Enter a prefix for the saved file name"
             android:title="@string/preference_filename_prefix_title" />
-    </PreferenceCategory>
-    <PreferenceCategory
-        android:title="@string/prefs_category_analytics_title">
-        <CheckBoxPreference
-            android:title="@string/preference_crash_reporting_title"
-            android:summary="@string/preference_crash_reporting_summary"
-            android:key="@string/preference_crash_reporting_key"
-            android:defaultValue="false" />
-        <CheckBoxPreference
-            android:title="@string/preference_anonymous_statistics_title"
-            android:summary="@string/preference_anonymous_statistics_summary"
-            android:key="@string/preference_anonymous_statistics_key"
-            android:defaultValue="false"
-            android:dependency="@string/preference_crash_reporting_key"/>
     </PreferenceCategory>
     <PreferenceCategory
         android:title="@string/prefs_category_theme_title" >

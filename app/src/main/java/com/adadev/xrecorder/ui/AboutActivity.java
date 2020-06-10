@@ -89,8 +89,8 @@ public class AboutActivity extends AppCompatActivity {
         analyticsCredit.setText(getString(R.string.analytics_library_credit, "Countly",
                 "https://github.com/Countly/countly-sdk-android",
                 "MIT Opensource License"));
-        openSourceInfo.setText(getString(R.string.opensource_info, "https://gitlab.com/vijai/screenrecorder", "GNU AGPLv3"));
-        openSourceInfo2.setText(getString(R.string.opensource_info2, "https://gitlab.com/vijai/screenrecorder", "GNU AGPLv3"));
+        openSourceInfo.setText(getString(R.string.opensource_info2, "https://github.com/adadevx/XScreenRecorder", "GNU AGPLv3"));
+        openSourceInfo2.setText(getString(R.string.opensource_info, "https://gitlab.com/vijai/screenrecorder", "GNU AGPLv3"));
         iapLibrary.setText(getString(R.string.iap_library_credit, "serso",
                 "https://github.com/serso/android-checkout",
                 "Apache 2.0"));

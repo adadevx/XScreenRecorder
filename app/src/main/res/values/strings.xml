@@ -57,8 +57,8 @@
     <string name="analytics_library_credit">Crash reporting and analytics SDK by %1$s\n\nGithub url: %2$s\n\nLicense: %3$s</string>
     <string name="iap_library_credit">In-app purchase helper library by %1$s\n\nGithub url: %2$s\n\nLicense: %3$s</string>
     <string name="changelog_library_credit">Changelog display library by %1$s\n\nGithub url: %2$s\n\nLicense: %3$s</string>
-    <string name="opensource_info">This app based from \"ScreenCam Screen Recorder\" app and the source could be obtained at \n\nGitlab url: %1$s\n\nLicense: %2$s</string>
-    <string name="opensource_info2">This app is open source and the source could be obtained at \n\nGitlab url: %1$s\n\nLicense: %2$s</string>
+    <string name="opensource_info">This app based from \"ScreenCam Screen Recorder\", source could be obtained at \n\nGitlab url: %1$s\n\nLicense: %2$s</string>
+    <string name="opensource_info2">This app is open source and the source could be obtained at \n\nGithub url: %1$s\n\nLicense: %2$s</string>
     <string name="fab_record_hint">Start recording</string>
     <string name="recording_failed_toast">Screen recording failed.</string>
     <string name="screenrecording_already_active_toast">Screen recording session already active</string>
@@ -135,7 +135,7 @@
     <string name="menu_delete">delete</string>
     <string name="menu_select_all">select all</string>
     <string name="menu_share">Share</string>
-    <string name="quick_settings_tile_default_title">Add ScreenCam tile</string>
+    <string name="quick_settings_tile_default_title">Add XSRecorder tile</string>
     <string name="quick_settings_tile_start_title">Start recording</string>
     <string name="quick_settings_tile_stop_title">Stop recording</string>
     <string name="orientation_key" translatable="false">orientation</string>
@@ -153,7 +153,7 @@
     <string name="alert_dialog_internal_audio_warning_negative_btn_text">Do not show this message again</string>
     <string name="preference_magisk_download_key" translatable="false">magisk_download_key</string>
     <string name="preference_faq_key" translatable="false">faq</string>
-    <string name="preference_magisk_download_title">ScreenCam Magisk Module</string>
+    <string name="preference_magisk_download_title">XSRecorder Magisk Module</string>
     <string name="preference_magisk_download_summary">Download magisk module for enabling internal audio recording</string>
     <string name="preference_faq_title">FAQ</string>
     <string name="preference_faq_summary">Frequently Asked Questions and Answers</string>

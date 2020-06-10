@@ -32,14 +32,4 @@
         android:title="@string/preference_faq_title"
         app:showAsAction="never" />
 
-    <item
-        android:id="@+id/donate"
-        android:title="@string/menu_donate"
-        app:showAsAction="never" />
-
-    <item
-        android:id="@+id/help"
-        android:title="@string/menu_help"
-        app:showAsAction="never" />
-
 </menu>

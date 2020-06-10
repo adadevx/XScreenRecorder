@@ -116,7 +116,7 @@
     <string name="menu_delete">apagar</string>
     <string name="menu_select_all">selecionar tudo</string>
     <string name="menu_share">Compartilhar</string>
-    <string name="quick_settings_tile_default_title">Adicionar Bloco de ScreenCam</string>
+    <string name="quick_settings_tile_default_title">Adicionar Bloco de XSRecorder</string>
     <string name="quick_settings_tile_start_title">Iniciar gravação</string>
     <string name="quick_settings_tile_stop_title">Parar gravação</string>
     <string name="preference_orientation_summary">Usar orientação padrão</string>
@@ -130,7 +130,7 @@
     <string name="alert_dialog_r_submix_audio_warning_message">Gravando áudio interno usando submix irá exigir que você instale o módulo systemizer magisk. Você não será capaz de ouvir qualquer áudio durante a gravação e isto não é um erro.\n\n Leia o FAQ para saber mais</string>
     <string name="alert_dialog_internal_audio_warning_faq_text">Mostrar FAQ</string>
     <string name="alert_dialog_internal_audio_warning_negative_btn_text">Não mostrar esta mensagem novamente</string>
-    <string name="preference_magisk_download_title">Módulo Magisk ScreenCam</string>
+    <string name="preference_magisk_download_title">Módulo Magisk XSRecorder</string>
     <string name="preference_magisk_download_summary">Baixar módulo magisk para ativar a gravação de áudio interna</string>
     <string name="preference_faq_title">Perguntas Frequentes</string>
     <string name="preference_faq_summary">Perguntas e Respostas frequentes</string>

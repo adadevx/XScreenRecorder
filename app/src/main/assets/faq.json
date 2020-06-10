@@ -28,10 +28,5 @@
     "question": "What is the difference between Internal Audio(Default Source) and Internal Audio (System app, R-Submix)?",
     "answer": "Default Source works on only few selected devices (mostly on phones which has call recording built-in) and uses standard public API to record internal audio. The drawback being, it also records mic input and there could be lot of noise added to the recorded audio.<br/><b>Note:</b> The audio output is not recorded from mic. Instead the internal audio and the mic input are mixed together by android",
     "weight": 8
-  },
-  {
-    "question": "Problem?",
-    "answer": "Report it by mailing to <a href=\"mailto:contact@orpheusdroid.com\">contact@orpheusdroid.com</a><br/>OR<br/>Join telegram group at <a href=\"https://t.me/joinchat/C_ZSIUKiqUCI5NsPMAv0eA\">https://t.me/joinchat/C_ZSIUKiqUCI5NsPMAv0eA</a>",
-    "weight": -1
   }
 ]

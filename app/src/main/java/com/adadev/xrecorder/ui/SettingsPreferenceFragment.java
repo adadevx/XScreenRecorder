@@ -254,12 +254,11 @@ public class SettingsPreferenceFragment extends PreferenceFragment implements Sh
 
         ArrayList<String> resEntries = new ArrayList<>(Arrays.asList(getResources().getStringArray(R.array.resolutionsArray)));
         ArrayList<String> resEntryValues = new ArrayList<>(Arrays.asList(getResources().getStringArray(R.array.resolutionValues)));
-
         String nativeRes = getNativeRes();
 
         boolean hasValuesChanged = false;
 
-        for (String resolution : resEntryValues) {
+        for (String resolution : new ArrayList<String>(resEntryValues)) {
             if (Integer.parseInt(resolution) > Integer.parseInt(nativeRes)) {
                 resEntries.remove(resolution + "P");
                 resEntryValues.remove(resolution);

@@ -65,8 +65,6 @@ import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
 import androidx.legacy.app.FragmentStatePagerAdapter;
 import androidx.viewpager.widget.ViewPager;
-import ly.count.android.sdk.Countly;
-import ly.count.android.sdk.DeviceId;
 
 /**
  * <p>
@@ -232,8 +230,6 @@ public class MainActivity extends AppCompatActivity {
         if (!BuildConfig.DEBUG)
             requestAnalyticsPermission();
 
-        Countly.onCreate(this);
-
         if (prefs.getInt(Const.CHANGELOG_VER, 0) < BuildConfig.VERSION_CODE) {
             showChangeLog();
             prefs.edit().putInt(Const.CHANGELOG_VER, BuildConfig.VERSION_CODE).apply();
@@ -255,27 +251,6 @@ public class MainActivity extends AppCompatActivity {
      * on the settings chosen by the user which is saved to the shared preference
      */
     public void setupAnalytics() {
-        if (!prefs.getBoolean(getString(R.string.preference_crash_reporting_key), false) &&
-                !prefs.getBoolean(getString(R.string.preference_anonymous_statistics_key), false)) {
-            Log.d(Const.TAG, "Analytics disabled by user");
-            return;
-        }
-        Countly.sharedInstance().init(this, Const.ANALYTICS_URL, Const.ANALYTICS_API_KEY,
-                null, DeviceId.Type.OPEN_UDID, 3, null, null, null, null);
-        Countly.sharedInstance().setHttpPostForced(true);
-        Countly.sharedInstance().enableParameterTamperingProtection(getPackageName());
-
-        if (prefs.getBoolean(getString(R.string.preference_crash_reporting_key), false)) {
-            Countly.sharedInstance().enableCrashReporting();
-            Log.d(Const.TAG, "Enabling crash reporting");
-        }
-        if (prefs.getBoolean(getString(R.string.preference_anonymous_statistics_key), false)) {
-            Countly.sharedInstance().setStarRatingDisableAskingForEachAppVersion(false);
-            Countly.sharedInstance().setViewTracking(true);
-            Countly.sharedInstance().setIfStarRatingShownAutomatically(true);
-            Log.d(Const.TAG, "Enabling countly statistics");
-        }
-        Countly.sharedInstance().onStart(this);
     }
 
     /**
@@ -572,12 +547,10 @@ public class MainActivity extends AppCompatActivity {
     protected void onStart() {
         super.onStart();
         ((ScreenCamApp) getApplication()).setupAnalytics();
-        Countly.sharedInstance().onStart(this);
     }
 
     @Override
     protected void onStop() {
-        Countly.sharedInstance().onStop();
         super.onStop();
     }
 
@@ -598,16 +571,6 @@ public class MainActivity extends AppCompatActivity {
                 return true;
             case R.id.menu_faq:
                 startActivity(new Intent(this, FAQActivity.class));
-                return true;
-            case R.id.donate:
-                startActivity(new Intent(this, DonateActivity.class));
-                return true;
-            case R.id.help:
-                try {
-                    startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://t.me/joinchat/C_ZSIUKiqUCI5NsPMAv0eA")));
-                } catch (ActivityNotFoundException e) {
-                    Toast.makeText(this, "No browser app installed!", Toast.LENGTH_SHORT).show();
-                }
                 return true;
             default:
                 return super.onOptionsItemSelected(item);
